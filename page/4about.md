@@ -18,12 +18,9 @@ type: page
 于是自己就写了一套模板，用来存放学习笔记。但是发现排版的时候效果太差，达不到博客上排版的那种效果。
 后来，偶然进了一个个人博客，主题非常好看，在博客上才得知这是用jekyll搭建的，脑子一热，就开始了我的jekyll搭建之旅~
 
-* 2016.6.30 入职阿里巴巴天猫事业部
-* 2016.6 毕业于西安交通大学 软件工程硕士
-* 2015.12 获得2014-2015学年二等奖学金
-* 2015.7-2015.8 联想服务，前端开发工程师（实习生）
-* 2013.6 毕业于西安交通大学 理学院
-* 2001 获得西航四校总成绩年级排名第八名
+
+* 2018.08.13 完成了基于jekyll的博客搭建
+* 2018.08.11 正式开始	
 
 ## 联系我
 
@@ -34,7 +31,7 @@ type: page
 
 ## 关于本站
 
-**这个主题最早来自与一位阿里的小哥，若您想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
+**这个主题最早来自与一位阿里的小哥，若您想使用这个 jekyll 博客主题，请访问他的github：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
 ~欢迎使用~
 
