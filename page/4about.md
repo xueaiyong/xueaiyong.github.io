@@ -13,15 +13,13 @@ type: page
 
 <iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
 
-就职于阿里巴巴集团天猫事业部，前端开发工程师，花名川轼。
+大家好，欢迎来到我的个人学习小站，在慕课网上学习的时候偶然接触到github，并得知利用github pages 
 
-主要兴趣集中在前端开发，大前端的概念深入我心。将更多的业务逻辑放在前端中，这很有趣。同时，将自己构想的内容实现出来，这种感觉很愉快。
+能够搭建一个免费的网站，于是自己就写了一套模板，用来存放学习笔记。但是发现排版的时候效果太差，达不到
 
-热爱美好的事物，热爱摇滚乐，组过乐队，卖过唱。
+博客上排版的那种效果。后来，偶然进了一个个人博客，主题非常好看，在博客上才得知这是用jekyll搭建的，
 
-很喜欢崔健的歌词：现实像块石头，精神像个蛋，石头虽然坚硬，可蛋里才是生命。
-
-还有，学习是一个非常愉快的过程。共同加油！
+脑子一热，就开始了我的jekyll搭建之旅~
 
 * 2016.6.30 入职阿里巴巴天猫事业部
 * 2016.6 毕业于西安交通大学 软件工程硕士
@@ -32,18 +30,14 @@ type: page
 
 ## 联系我
 
-* GitHub：[Gaohaoyang](https://github.com/Gaohaoyang)
-* email：gaohaoyang126@126.com
-* [Weibo](http://weibo.com/3115521wh)
-* [知乎](https://www.zhihu.com/people/gaohaoyang)
-* [Facebook](https://www.facebook.com/gaohaoyang.water)
-* [Twitter](https://twitter.com/gaohaoyang126)
-* [豆瓣](https://www.douban.com/people/42525035/)
-* [豆瓣音乐人-浩阳的小站](https://site.douban.com/haoyangaiyinyue/)
+* GitHub：[joytom](https://github.com/joytom)
+* email：18254040293@163.com
+* QQ:1843622620
+* 微信公众号：十点生活说
 
 ## 关于本站
 
-**若您想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
+**这个主题最早来自与一位阿里的小哥，若您想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
 ~欢迎使用~
 
