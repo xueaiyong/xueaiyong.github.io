@@ -6,6 +6,25 @@ layout: default
     <div class="left">
         <h1>Welcome to wangchuang's blog </h1>
         <small>这里是我的个人IT学习小天地</small>
+        <script type="text/javascript">
+       var xxxx = Math.random() + "";
+       var index = xxxx.charAt(3);
+       RandomMsg = new Array();
+       RandomMsg[1] = '习大大：我们必须清醒认识到，有的历史性交汇期可能产生同频共振，有的历史性交汇期也可能擦肩而过。';
+       RandomMsg[2] = '习大大：要充分认识创新是第一动力，提供高质量科技供给，着力支撑现代化经济体系建设。';
+       RandomMsg[3] = '习大大：要矢志不移自主创新，坚定创新信心，着力增强自主创新能力。';
+       RandomMsg[4] = '习大大：努力实现关键核心技术自主可控，把创新主动权、发展主动权牢牢掌握在自己手中。';
+       RandomMsg[5] = '习大大：科技体制改革要敢于啃硬骨头，敢于涉险滩、闯难关，破除一切制约科技创新的思想障碍和制度藩篱，正所谓“穷则变，变则通，通则久”。';
+       RandomMsg[6] = '习大大：深度参与全球科技治理，贡献中国智慧，着力推动构建人类命运共同体。';
+       RandomMsg[7] = '习大大：全部科技史都证明，谁拥有了一流创新人才、拥有了一流科学家，谁就能在科技创新中占据优势。';
+       RandomMsg[8] = '习大大：希望广大院士弘扬科学报国的光荣传统，追求真理、勇攀高峰的科学精神，勇于创新、严谨求实的学术风气，把个人理想自觉融入国家发展伟业，在科学前沿孜孜求索，在重大科技领域不断取得突破。';
+       RandomMsg[9] = '习大大：青年是祖国的前途、民族的希望、创新的未来。青年一代有理想、有本领、有担当，科技就有前途，创新就有希望。';
+       RandomMsg[0] = '习大大：中国共产党领导是中国特色科技创新事业不断前进的根本政治保证。';
+  var msg = RandomMsg[index];
+   </script>
+   <script language="JavaScript">
+       document.write(msg)
+   </script>
         <hr>
         <ul>
             {% for post in paginator.posts %}
