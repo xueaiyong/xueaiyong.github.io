@@ -11,7 +11,7 @@ type: page
 
 ## 关于我
 
-<img src="https://raw.githubusercontent.com/joytom/joytom.github.io/master/images/2018-08-15/1.png" />
+<img src="https://raw.githubusercontent.com/joytom/joytom.github.io/master/images/2018-08-14/1.jpg" />
 
 大家好，欢迎来到我的个人学习小站。
 在慕课网上学习的时候偶然接触到github，并得知利用github pages能够搭建一个免费的网站。
