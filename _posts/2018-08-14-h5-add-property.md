@@ -177,3 +177,60 @@ tags:  HTML HTML5
 
 无法提交！！！
 >**因此，sandbox：保护数据安全，禁止提交表单**
+
+<hr/>
+## 全局属性
+<hr/>
+-  `lable`
+
+```html
+<label hidden>你能看见我吗</label>
+```
+>**因此label标签里面的内容**
+
+
+- `spellcheck`
+
+```html
+<textarea spellcheck="true" cols="5" rows="5"></textarea>
+```
+>**语法纠错，自动给我们标出可能出错的单词（下标红线）**
+
+![图片1.png](https://upload-images.jianshu.io/upload_images/13570975-4425d4ae3dd354f1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- `tabindex`
+
+```html
+<input type="text" tabindex="1" />我是老大
+<input type="text" tabindex="2" />我是老二
+<textarea tabindex="3">我是老三</textarea>
+```
+>**摁tab键，按照顺序往下跳**
+
+![图片2.png](https://upload-images.jianshu.io/upload_images/13570975-305af8b1d8442ad3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- `contenteditable`
+
+```html
+<table contenteditable="true">
+       <tr>
+            <td>数据一</td>
+            <td>数据二</td>
+       </tr>
+</table>
+<p contenteditable="true">请您留言</p>
+```
+>**可在内容上直接输入文字**
+
+![图片3.png](https://upload-images.jianshu.io/upload_images/13570975-3447afa8201daa51.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- `designMode`
+
+```html
+<script>
+          window.document.designMode="on";
+</scirpt>
+```
+>**在整个页面可以随意修改内容。**
+
+![图片4.png](https://upload-images.jianshu.io/upload_images/13570975-7343138d1c5d4b57.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
