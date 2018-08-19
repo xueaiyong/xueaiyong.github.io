@@ -4,7 +4,7 @@ title:  "HTML新增属性"
 categories: HTML
 date:   2018-08-14 18:40:05
 author: joytom
-tags:  HTML HTML5
+tags:  HTML5 HTML
 ---
 
 <hr/>
