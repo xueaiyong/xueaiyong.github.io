@@ -69,14 +69,8 @@ if(isset($_POST['submit']))
 
 ![image.png](https://upload-images.jianshu.io/upload_images/13570975-64c587af42491557.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-随机显示图片验证码的两种形式：
-①刷新显示：
+刷新显示：
   ```html
 <p>验证码图片：<img border = "1" src="./captcha.php?r=<?php echo rand();?>"width:100px,height:100px" /></p>
 ```
 >**php?r=<?PHP echo rand(); ?>,访问PHP文件传随机数，为防止有的浏览器可能使用缓存而不刷新验证码<br/>r（redirect的简写）**
-
-②点击显示：
-```html
-<p>验证码图片：<img border='1' src='haha.php' onclick="this.src='haha.php?t=' + Math.random()" title="点击刷新"/> </p>
-```
