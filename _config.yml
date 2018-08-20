@@ -7,7 +7,7 @@
 
 # Site settings
 title: 王闯的技术专栏
-brief-intro: 爱生活、爱技术
+brief-intro: 敬畏每一行代码
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joytom.github.io" # the base hostname & protocol for your site
 
