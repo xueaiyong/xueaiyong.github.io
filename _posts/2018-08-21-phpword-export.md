@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "PHPWord导出文件"
+title:  "tp导出phpword文件"
 categories: PHPWord
 author: joytom
-tags:   PHPWord
+tags:   PHPWord Thinkphp
 ---
 
 暑假前的开发一个题库，要求最后的题目生成一个word文档，该代码主要是利用了循环来进行word生成，每一行都有注释。感触非常深的就是，循环是多么重要！！！
@@ -92,6 +92,6 @@ tags:   PHPWord
 ```
 ![image.png](https://upload-images.jianshu.io/upload_images/13570975-10f952e896a8fb80.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-如果对该题库有兴趣，可访问：[题库系统](//demo.wangchuangcode.cn)
+如果对该题库有兴趣，可访问：[题库系统](demo.wangchuangcode.cn)
 
 一个小小的知识点：在博客中插入超链接的时候，由于网站没有小绿锁，写上http可能就进不去我的网站，但是不写又会localhost
