@@ -57,5 +57,5 @@ tags:   PHPExcel Thinkphp
         header("Pragma: no-cache");
         $objWriter->save('php://output');
 ```
->**更多介绍参考phpexcel中文手册http://www.thinkphp.cn/topic/53674.html**
+>**更多介绍参考[phpexcel中文手册](http://www.thinkphp.cn/topic/53674.html)**
 

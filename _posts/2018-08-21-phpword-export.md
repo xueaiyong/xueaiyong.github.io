@@ -92,6 +92,6 @@ tags:   PHPWord Thinkphp
 ```
 ![image.png](https://upload-images.jianshu.io/upload_images/13570975-10f952e896a8fb80.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-如果对该题库有兴趣，可访问：[题库系统](demo.wangchuangcode.cn)
+如果对这个题库有兴趣，可访问：[题库系统](//demo.wangchuangcode.cn)
 
-一个小小的知识点：在博客中插入超链接的时候，由于网站没有小绿锁，写上http可能就进不去我的网站，但是不写又会localhost
+>**一个小小的知识点：<br/>出现的问题：<br/>在博客中插入超链接的时候，由于网站没有小绿锁，写上http可能就进不去我的网站，但是不写在本地主机上会显示：localhost:4001/demo.wangchuangcode.cn，在网站上会显示：www.wangchuangcode.cn/demo.wangchuangcode.cn，这种网址都会进不去。<br/>解决办法：<br/>在前面加上两个//就OK了~~~**
