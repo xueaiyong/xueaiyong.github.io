@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "这是王闯的第一篇文章"
-categories: SnakeSon
-tags:  hexo JavaScript
-author: SnakeSon
+categories: Personal
+tags:  Personal
+author: joytom
 ---
 
 * content
