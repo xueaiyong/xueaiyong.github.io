@@ -12,11 +12,11 @@ author: joytom
 JavaScript中的变量、函数名和操作符都区分大小写，关键字不能做变量或函数名字。所以，test和Test是两个变量，var因是关键字所以不能是函数名或者变量名。
 #### 2、标识符的命名规则：就是变量、函数、属性、函数的参数等。规定：
    （1）第一个字符必须是字母、下划线(_)、美元符号（$）。
-   （2）其他字符可以是字母、下划线、美元符号或数字。
+   <br/>（2）其他字符可以是字母、下划线、美元符号或数字。
 #### 3、注释：分为单行注释和多行（块）注释
 （1）单行注释// 如： 
     //这是一个单行注释
-（2）多行注释  /**/     如：
+<br/>（2）多行注释  /**/     如：
    
 	
 #### 4、语句。JavaScript中语句以一个;结尾（英文分号），但可以省略 。比如：
@@ -42,13 +42,21 @@ if(xxx)
 A、它会忽略字符串前面的空格，直至找到第一个非空格字符，如果第一个字符不是数字字符或者负号，则返回NaN。<br/>
 B、转换空字符串返回NaN。<br/>
 C、如果第一个字符是数字字符，会接着进行解析，直到完成或者遇到非数字字符。
+D、会忽略0
 例如：
 ![image.png](https://upload-images.jianshu.io/upload_images/13570975-c1e3d7e21b2b68d4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+```html
+alert(parseInt("0123"));   //输出123
+alert(parseInt("01ab23"));  //输出1
+alert(parseInt("w9"));    //输出NaN
+```
+
 `parseFloat`：将一个字符串转成浮点数。
 区别：<br/>（1）字符串中的第一个小数点是有效的，第二个小数点是无效的，后面的字符串会被忽略。
 “22.34.5” 转成  22.3
 （2）始终会忽略前导0（把前导0直接去掉），十六进制数始终被转成0，只解析十进制数，所以没有第二个参数。即只能转成十进制
-（3）字符串中没有小数点或小数点后边全是0，则该函数返回整数。
+<br/>（3）字符串中没有小数点或小数点后边全是0，则该函数返回整数。
 例如：<br/>
 ```html
 <script type="text/javascript">
@@ -77,7 +85,7 @@ alert(0/0);    //NaN
 alert("abc"/2);    //NaN
 ```
 ①任何涉及NaN的操作如（NaN/10）都会返回NaN。
-②NaN与任何值都不想相等，包括NaN本身。如：alert(Nan==Nan);  //false
+<br/>②NaN与任何值都不想相等，包括NaN本身。如：alert(Nan==Nan);  //false
 <br/>`isNaN`：用来判断数值是否“不是数值”
 不是数值时返回true，否则，返回false。比如，<br/>
 ```javascript
@@ -112,11 +120,12 @@ var c=age.toString(2);
 alert(c);      //101010
 </script>
 ```
+![erjinzhi.png](https://upload-images.jianshu.io/upload_images/13570975-96ea51706f8f06ea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 二进制转换详见——杂项
 ## 变量
 ###### JavaScript的变量是松散型的，所松散型就是可以用来保存任何类型的数据；并且一个变量的值类型是可变的。
 一、定义方式
-1、使用var操作符（关键字），后跟变量名的形式。
+<br/>1、使用var操作符（关键字），后跟变量名的形式。
   ```html
 <script type="text/javascript">
 var message;             //表示message是一个变量
@@ -152,8 +161,8 @@ alert(test);         //输出全局变量
 </script>
 ```
 三、使用var和不使用var的区别：
-A、使用var定义变量，系统会强制定义一个新变量；
-B、不使用var定义变量，系统会优先在当前上下文中搜索是否存在该变量，只有变量不存在的前提下，才会重新定义一个新变量。
+<br/>A、使用var定义变量，系统会强制定义一个新变量；
+<br/>B、不使用var定义变量，系统会优先在当前上下文中搜索是否存在该变量，只有变量不存在的前提下，才会重新定义一个新变量。
 例如：
 ```html
 <script type="text/javascript">
