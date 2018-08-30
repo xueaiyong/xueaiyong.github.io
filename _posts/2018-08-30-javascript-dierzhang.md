@@ -78,7 +78,7 @@ alert("abc"/2);    //NaN
 ```
 ①任何涉及NaN的操作如（NaN/10）都会返回NaN。
 ②NaN与任何值都不想相等，包括NaN本身。如：alert(Nan==Nan);  //false
-`isNaN`：用来判断数值是否“不是数值”
+<br/>`isNaN`：用来判断数值是否“不是数值”
 不是数值时返回true，否则，返回false。比如，<br/>
 ```javascript
 alert(isNaN('a'/3));     //返回true
