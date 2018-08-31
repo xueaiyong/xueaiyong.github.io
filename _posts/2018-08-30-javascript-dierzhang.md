@@ -192,6 +192,7 @@ alert(test);     //输出局部变量
  
 ```
 >**解析：由于函数里的test没定义var，会上下文搜索变量test，找到全局变量test，会把局部的值赋值给最上面的test，因此，最上面的test变量的值为局部变量，最终的alert输出了局部变量**
+
 ## 运算符
 ![image.png](https://upload-images.jianshu.io/upload_images/13570975-01075c8506084c26.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ##### 下面对重要的运算符做简单解释：
