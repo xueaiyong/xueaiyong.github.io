@@ -213,3 +213,75 @@ alert("ABC">"ABB");   //true
 ```
 4、instanceof判断某个变量是否为指定类的实例。
 ![image.png](https://upload-images.jianshu.io/upload_images/13570975-3e3f729151094ff4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## 函数
+一、定义函数的方式（2种）
+①定义命名函数
+格式：
+```javascript
+function fun(参数值)
+{
+        //函数体
+}
+```
+比如：
+```javascript
+function fun(name,message)
+{
+      alert("hello"+name+","+message);      
+}
+```
+②定义匿名函数
+格式：
+```javascript
+var 变量名=function(参数){
+      //函数体
+}
+```
+比如：
+```javascript
+var fun=function(name,message){
+    alert("hello"+name+","+message);
+}
+```
+>**此处，fun的作用就是指向定义的函数，类似函数的名字**
+
+二、函数调用的方式
+①直接调用：
+比如：
+```javascript
+function fun(name,message)
+{
+      alert("hello"+name+","+message);
+}
+fun("新同学","欢迎来到我们学校");     //直接调用
+```
+②在表达式中调用
+比如：
+```javascript
+function add(a,b){
+     return a+b;
+}
+var sum=add(4,5);
+var sum=add(4,5);   //只是赋值
+alert(sum);    //弹出9
+alert(add(4,5));   //弹出9
+```
+>**这种方式比较适合有返回值的函数，返回值作为表达式的一部分参与运算，有时还会和alert、document等语句配合输出**
+
+③在事件中调用
+```javascript
+<input type="button" value="提交" onclick="return fun()" />
+```
+>**若在一个文件中，定义函数名字相同，会使用最后定义的函数**
+
+<hr/>
+## 流程控制语句
+`for in`的使用：
+```javascript  
+var arr=new Array("hello","javascript","and","world");
+for(key in arr)
+{
+  alert("数组索引"+key+"的值是："+arr[key]);
+}
+```
