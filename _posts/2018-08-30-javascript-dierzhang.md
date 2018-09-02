@@ -215,7 +215,7 @@ alert("ABC">"ABB");   //true
 ![image.png](https://upload-images.jianshu.io/upload_images/13570975-3e3f729151094ff4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 函数
-一、定义函数的方式（2种）
+一、定义函数的方式（2种）<br/>
 ①定义命名函数
 格式：
 ```javascript
@@ -246,7 +246,7 @@ var fun=function(name,message){
 ```
 >**此处，fun的作用就是指向定义的函数，类似函数的名字**
 
-二、函数调用的方式
+二、函数调用的方式<br/>
 ①直接调用：
 比如：
 ```javascript
