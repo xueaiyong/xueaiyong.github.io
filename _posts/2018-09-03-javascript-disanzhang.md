@@ -7,7 +7,7 @@ author: joytom
 ---
 
 ## 字符串类
-一、字符串类创建和属性
+### 一、字符串类创建和属性
 引用类型（直接赋值）和基本包装类型的区别：<br/>
 主要区别：对象的生存期。<br/>
 直接赋值：<br/>
@@ -49,7 +49,7 @@ var 字符串变量=new String(字符串);
 ```html
 var str = new String("欢迎大家学习JavaScript");
 ```
-string类的常用属性：
+string类的常用属性：<br/>
 `length`
 功能：该属性用来返回字符串中的数量，也可获取数组的长度。
 注意：中文字符虽然是双字节，也算是一个单字符。
@@ -69,7 +69,7 @@ alert(str.length);  //一个汉字算一个长度
 ![image.png](https://upload-images.jianshu.io/upload_images/13570975-8d117dfd893b3638.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 >**注意：JavaScript中调用类中的属性、方法，通过.（英文点号），和PHP通过->不同。**
 
-二、常用方法：<br/>
+### 二、常用方法：<br/>
 1、`charAt（index）`可返回指定位置的字符
 >**index：必须。表示字符串种某个位置的数字，即字符在字符串中的下标。**
 
@@ -236,9 +236,10 @@ document.write(str.toUpperCase());
 </script>
 ```
 ![image.png](https://upload-images.jianshu.io/upload_images/13570975-64ed4c7b0685c1f3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+<hr/>
 ## 数学（MATH）类
-Math常用属性：<br/>
+<hr/>
+### Math常用属性：<br/>
 `Math.PI`返回圆周率（约等于3.1415926）
 ```html
 <script>
@@ -308,7 +309,7 @@ document.write(Math.max(2.4,5.3,5.4) + "<br/>");
 document.write(Math.random() + "<br/>");
 </script>
 ```
-![image.png](https://upload-images.jianshu.io/upload_images/13570975-3d8becf23913238d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-3d8becf23913238d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
 返回介于0.0~10.0之间的随机数，也可取整（使用floor或者ceil）：
 ```html
 <script>
