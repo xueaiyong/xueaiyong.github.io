@@ -327,3 +327,162 @@ document.write(Math.round(5.5) + "<br/>");
 </script>
 ```
 ![image.png](https://upload-images.jianshu.io/upload_images/13570975-91899bf44d50fb4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<hr/>
+## 日期（DATE）类
+
+### 一、定义日期对象<br/>
+定义方式：<br/>
+1、定义获取当前系统日期时间的对象<br/>
+var nowDate=new Date<br/>
+```html
+<script>
+var nowDate=new Date();
+document.write(nowDate);
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-7c651d04adab4f65.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
+2、获取2018-09-03 12时的时间
+```html
+<script>
+var nowDate=new Date("September 03 2018 12:00:00");
+document.write(nowDate);
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-390203a6841e6ca8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
+3、获取18年9月3号12时的时间
+```html
+<script>
+var nowDate=new Date(2018,9,3,12);
+document.write(nowDate);
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-11d50746ba3799ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
+### 二、常用方法<br/>
+`getFullYear()`从Date对象以四位数字返回年份
+```html
+<script>
+var d=new Date();
+var n=d.getFullYear();
+document.write(n);
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-9f3f0b9f89c96696.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
+`getMonth()`从Date对象返回月份（0~11）
+```html
+<script>
+var d=new Date();
+var n=d.getMonth();
+document.write(n);
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-22a9f8dba62d5d2d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-07565ec438e60bf8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+>**0就是1月份，1就是2月份，2就是3月份**
+
+`getDate()`
+```html
+<script>
+var d=new Date();
+var n=d.getDate();
+document.write(n);
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-e513d343945ba1cc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
+`getHours()`返回Date对象的小时（0~23）
+```html
+<script>
+var d=new Date();
+var n=d.getHours();
+document.write(n);
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-6153c63128b7f2f8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-d48af3e2bde844d2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
+`getTime`返回1970年1月1日至今的毫秒数
+```html
+<script>
+var d=new Date();
+var n=d.getTime();
+document.write(n);
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-1127da91a9da7a83.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
+`parse()`返回1970年1月1日午夜到指定日期（字符串）的毫秒数（三种写法）<br/>
+第一种：
+```html
+<script>
+var d=new Date();
+var n=Date.parse("Jul 8, 1989");
+document.write(n);
+</script>
+```
+>**从1970年到1989年7月8日的毫秒数**
+
+
+第二种：<br/>
+```html
+<script>
+var d=new Date();
+var n=Date.parse(1994,10,9);
+document.write(n);
+</script>
+```
+>**从1970年到1994年10月9号的毫秒数，需要特别注意的是浏览器兼容问题**
+
+第三种：<br/>
+```html
+<script>
+var d=new Date();
+var n=Date.parse("12/12/1998");
+document.write(n);
+</script>
+```
+>**外国人写法，格式为：月/日/年**
+
+`setFullyear`设置Date对象中的年份（四位数字）
+```html
+<script>
+var d=new Date();
+d.setFullYear(2015,10,12);
+document.write(d);
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-e2b050c523f4c7a1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+```html
+<script>
+var d=new Date();
+var e=d.setFullYear(2015,10,12);
+document.write(e);
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-5efbb867359c4151.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+>**1970年到2015年10月12日的毫秒数**
+
+<br/>
+`toLocalTimeString()`根据本地时间格式，把Date对象转换为字符串
+```html
+<script>
+var d=new Date();
+document.write(d.toLocaleString());
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-4a0ed45cc901a94c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
+`toLocaleTimeString()`根据本地时间格式，把Date对象的时间部分转换为字符串
+```html
+<script>
+var d=new Date();
+document.write(d.toLocaleTimeString());
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-4e894b206d22d7a1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
+`toLocaleDateString`根据本地时间格式，把Date对象的日期部分转换为字符串
+```html
+<script>
+var d=new Date();
+document.write(d.toLocaleDateString());
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-29b705873a498ccf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
