@@ -486,3 +486,179 @@ document.write(d.toLocaleDateString());
 </script>
 ```
 ![image.png](https://upload-images.jianshu.io/upload_images/13570975-29b705873a498ccf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<hr/>
+## 数组（ARRAY）类
+### 一、说明：
+
+>**Array对象用于在单个变量中存储多个值**
+
+### 二、创建数组的3种方式
+1、实例化一个长度为0的数组：
+var arr = new Array（）；
+实例：声明一个长度为0的数组myArr
+var myArr = new Array（）；<br/>
+2、实例化一个长度为n的数组，n是参数：
+var arr = new Array（n）；
+实例：新建一个长度为5的数组，有5个元素
+var myArr = new Array（5）；<br/>
+3、实例化一个赋初值的数组，包含多个参数：
+var arr = new Array（值1，值2，值3）；
+实例：创建一个数组，并且赋初值为1，2，3，4
+var myArr = new Array（1，2，3，4）；<br/>
+### 三、数组的属性
+length：设置或返回数组中元素的数目。
+>**注意：设置length属性可改变数组的大小。如设置的值比其当前值小，数组将被截断，其尾部的元素将丢失。如果设置的值比它的当前值大，新的元素被添加到数组的尾部，它们的值为undefined**
+
+实例一：
+```html
+<script>
+var arr=new Array(3);
+arr[0]="php1";
+arr[1]="php2";
+arr[2]="php3";
+document.write(arr.length + "<br/>");  //3
+arr.length=5;
+document.write(arr.length + "<br/>"); // 5
+arr[3]="M1";    //为新增的数组元素赋值
+arr[4]="M2";
+arr.length=arr.length-2;   //将数组长度减少2，则后两个元素就自动删除
+document.write(arr.length);    //3
+</script>
+```
+实例二：
+```html
+<script>
+var colors=["red","blue","white"];
+colors.length=4;     //数组的元素个数增加1个
+alert(colors[3]);    //undefined。虽然长度增加一个但没有赋值。
+colors[3]="black";   //添加一个新的元素
+alert(colors[3]);    //显示添加的新元素
+colors[colors.length]="brown";   //在最后面新增一个元素
+colors[99]="green";     //在下标为99处添加一个元素
+alert(colors.length);   //该数组长度变为100
+</script>  
+```
+### 四、常用方法
+1、`concat（）`用于连接两个或多个数组
+>**arrayObject.concat（arrayX,arrayY……）<br/>arrayX：必须。该参数是具体的值，也可是数组对象。可以是任意多个**
+
+```html
+<script>
+var a=[1,2,3];
+document.write(a.concat(4,5)+"<br/>");   //1，2，3，4，5
+var arr=new Array(3);
+arr[0]="阿衰";
+arr[1]="大脸妹";
+arr[2]="令狐冲";
+
+var arr2=new Array(3);
+arr2[0]="詹姆斯";
+arr2[1]="库里";
+arr2[2]="杜兰特";
+document.write(arr.concat(arr2)+"<br/>");   //将arr、arr2数组连接
+</script>
+```
+2、`join（）`用于把数组中的所有元素放入到一个字符串
+>**arrayObject.join（separator）<br/>可选。指定要使用的分隔符。如果省略该参数，则使用逗号作为分隔符**
+
+```html
+<script>
+var arr=new Array(3);
+arr[0]="阿衰";
+arr[1]="大脸妹";
+arr[2]="令狐冲";
+document.write(arr.join()+"<br/>");   //不指定分隔符
+document.write(arr.join("."));     //指定分隔符
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-a8becd715e9359a4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+3、`pop（）`用于删除并返回数组的最后一个元素
+
+```html
+<script>
+var arr=new Array(3);
+arr[0]="阿衰";
+arr[1]="大脸妹";
+arr[2]="令狐冲";
+document.write(arr+"<br/>");  //输出原来数组中的值
+document.write(arr.pop()+"<br/>");    //执行pop操作，返回被删除的元素
+document.write(arr);    //输出被删除后、剩余的元素
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-2b40a801441ee140.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+4、`shift（）`用于删除并返回数组的第一个元素
+```html
+<script>
+var arr=new Array(3);
+arr[0]="阿衰";
+arr[1]="大脸妹";
+arr[2]="令狐冲";
+document.write(arr+"<br/>");  //输出原来数组中的值
+document.write(arr.shift()+"<br/>");    //执行pop操作，返回被删除的元素
+document.write(arr);    //输出被删除后、剩余的元素
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-7630dc7115c40429.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+5、`push（）`向数组的末尾添加一个或更多元素，并返回新的长度
+```html
+<script>
+var arr=new Array(3);
+arr[0]="阿衰";
+arr[1]="大脸妹";
+arr[2]="令狐冲";
+document.write(arr.push()+"<br/>");    //向数组的末尾添加一个或更多元素，并返回新的长度
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-479ac563e98ea33d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+6、`slice（）`从某个已有的数组返回选定的元素
+```html
+<script>
+var arr=new Array(3);
+arr[0]="阿衰";
+arr[1]="大脸妹";
+arr[2]="令狐冲";
+document.write(arr.slice(1,2)+"<br/>");  
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-50e4033a25f5fdb6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>**从下标为1开始，到下标为2结束**
+
+7、`reverse（）`颠倒数组中元素的顺序
+```html
+<script>
+var arr=new Array(3);
+arr[0]="阿衰";
+arr[1]="大脸妹";
+arr[2]="令狐冲";
+document.write(arr.reverse()+"<br/>");   
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-7f807f06bf5d6d63.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
+8、`sort（）`对数组的元素进行排序
+```html
+<script>
+var arr=new Array(3);
+arr[0]="Kobe";
+arr[1]="Slice";
+arr[2]="Rose";
+document.write(arr.sort()+"<br/>");  
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-f5594b473c90ed02.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
+9、`toString（）`把数组转换为字符串，并返回结果
+```html
+<script>
+var arr=new Array(3);
+arr[0]="库里";
+arr[1]="詹姆斯";
+arr[2]="哈登";
+document.write(arr.toString()+"<br/>");  
+</script>
+```
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-40053028ad286ef0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
