@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "PHP验证码汉字校检"
-categories: PHP
+categories: PHP验证码
 author: joytom
-tags:   PHP 验证码
+tags:   PHP验证码
 ---
 
 ### 打开控制面板，查找字体：

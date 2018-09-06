@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "PHP验证码动态校检制作"
-categories: PHP
+categories: PHP验证码
 author: joytom
-tags:   PHP 验证码
+tags:   PHP验证码
 ---
 
 >**动态验证三步走：<br/>

@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "PHP制作随机数字验证码并增加干扰点"
-categories: PHP
+categories: PHP验证码
 author: joytom
-tags:   PHP 验证码
+tags:   PHP验证码
 ---
 
 - `imagestring` ---水平地画一行字符串

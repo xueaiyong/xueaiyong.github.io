@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "PHP实现数字字母混合验证码"
-categories: PHP
+categories: PHP验证码
 author: joytom
-tags:   PHP 验证码
+tags:   PHP验证码
 ---
 
 代码实现：

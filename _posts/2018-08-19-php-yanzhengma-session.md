@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "PHP验证码通过session储存信息"
-categories: PHP
+categories: PHP验证码
 author: joytom
-tags:   PHP 验证码
+tags:   PHP验证码
 ---
 
 haha.php
