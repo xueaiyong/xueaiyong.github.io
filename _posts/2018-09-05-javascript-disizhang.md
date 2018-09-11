@@ -164,6 +164,22 @@ function fun()
 }
 </script>
 ```
+
+```html
+<body>
+<input type="button" value="新页面" onclick="fun()" >
+<script>
+function fun()
+{
+	myWindow=window.open('','','width=200,height=200');
+	myWindow.document.write("你想看点啥");
+}
+</script>
+</body>
+```
+
+![image.png](https://upload-images.jianshu.io/upload_images/13570975-1419687ae57996dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 9、`close（）`用于关闭浏览器窗口
 ```html
 <input type='button' value="关闭" onclick="guan()" />
