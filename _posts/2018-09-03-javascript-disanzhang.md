@@ -462,7 +462,7 @@ document.write(e);
 >**1970年到2015年10月12日的毫秒数**
 
 <br/>
-`toLocalTimeString()`根据本地时间格式，把Date对象转换为字符串
+`toLocalString()`根据本地时间格式，把Date对象转换为字符串
 ```html
 <script>
 var d=new Date();
