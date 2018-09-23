@@ -32,9 +32,8 @@ type: page
 
 ## 关于本站
 
-**这个主题最早来自与一位阿里的小哥，若您想使用这个 jekyll 博客主题，请访问他的github：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
-~特别感谢浩阳哥提供的主题~
+
 
 欢迎大家提一些对本站主题的建议，可以直接在下面留言。
 
