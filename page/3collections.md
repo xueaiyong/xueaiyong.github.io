@@ -9,7 +9,7 @@ type: page
 * content
 {:toc}
 
-## 工具
+<!--## 工具
 
 * [box-shadow generator](http://www.cssmatic.com/box-shadow)
 
@@ -221,8 +221,8 @@ Syntax Theme: Atom Dark or One Dark
     折叠左侧目录章节。
 
     <!-- ![](http://ww4.sinaimg.cn/large/7011d6cfjw1f08kmplbj1j20gn05l0tk.jpg) -->
-
-## Chrome 插件
+<!--
+ ## Chrome 插件
 - [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 
     - Code tree for GitHub and GitLab
@@ -290,6 +290,8 @@ Syntax Theme: Atom Dark or One Dark
 
     首页的卡片翻动效果非常赞。
 
+
 ## Comments
 
 {% include comments.html %}
+
