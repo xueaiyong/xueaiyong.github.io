@@ -42,7 +42,7 @@ type: page
 
 ## 友情链接
 
-[caomingchen](tarhttp://poshir.top/)\|[xxx](xxxx) \|
+[caomingchen](http://poshir.top/)\|[xxx](xxxx) \|
 ## Comments
 
 {% include comments.html %}
