@@ -42,7 +42,7 @@ type: page
 
 ## 友情链接
 
-[caomingchen](http://poshir.top/)\|[xxx](xxxx) \|
+[曹名臣的博客](http://poshir.top/)\|[xxx](xxxx) \|
 ## Comments
 
 {% include comments.html %}
