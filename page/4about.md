@@ -25,10 +25,11 @@ type: page
 
 ## 联系我
 
+* CSDN：[光头强的博客](https://blog.csdn.net/qq_42249896?t=1&orderby=ViewCount)
 * GitHub：[joytom](https://github.com/joytom)
 * email：18254040293@163.com
 * QQ:1843622620
-* 微信公众号：十点生活说
+* 微信公众号：十点生活说 
 
 ## 关于本站
 
