@@ -40,7 +40,7 @@ type: page
 
 
 ## 我的生活站
-[花若离枝](https://joyjerry.github.io)
+[花若离枝](https://joyjerry.github.io){:target="_blank"}
 
 ## 友情链接
 
