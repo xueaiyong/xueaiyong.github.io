@@ -42,7 +42,7 @@ type: page
 本站内的一切文章均为原创！如果非原创就会在文章上标注转载地址。真正的用心，经得起检验！
 
 ## 我的生活站
-[花若离枝](https://joyjerry.github.io){:target="_blank"}
+[生活是生活学习是学习，缺一不可](https://joyjerry.github.io){:target="_blank"}
 
 ## 友情链接
 
