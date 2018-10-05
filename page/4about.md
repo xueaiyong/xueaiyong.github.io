@@ -25,8 +25,8 @@ type: page
 
 ## 联系我
 
-* CSDN：[光头强的博客](https://blog.csdn.net/qq_42249896?t=1&orderby=ViewCount)
-* GitHub：[joytom](https://github.com/joytom)
+* CSDN：[光头强的博客](https://blog.csdn.net/qq_42249896?t=1&orderby=ViewCount){:target="_blank"}
+* GitHub：[joytom](https://github.com/joytom){:target="_blank"}
 * email：18254040293@163.com
 * QQ:1843622620
 * 微信公众号：十点生活说 
@@ -44,7 +44,7 @@ type: page
 
 ## 友情链接
 
-[曹名臣的博客](http://poshir.top/)\|[xxx](xxxx) \|
+[曹名臣的博客](http://poshir.top/){:target="_blank"}\|[xxx](xxxx) \|
 ## Comments
 
 {% include comments.html %}
