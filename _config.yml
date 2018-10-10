@@ -37,7 +37,7 @@ disqus_shortname: #joytom
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: https://hm.baidu.com/hm.js?978898db0d89f5e79bcbee39909806c7
+baidu_tongji_id: 
 google_analytics_id:
 
 # Build settings
