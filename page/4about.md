@@ -70,3 +70,4 @@ type: page
 <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
 </div>
 <!-- City版安装代码已完成 -->
+<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1843622620&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1843622620:53" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
