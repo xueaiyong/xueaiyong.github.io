@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "这是王闯的第一篇文章"
+title:  "这是赵勇的第一篇文章"
 categories: Personal
 tags:  Personal
 author: joytom
